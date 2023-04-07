@@ -15,9 +15,12 @@ weight_decay: 0
 模型保存在"..\models\model_50_0.02_0.npz"
 
 加载模型  
-model.load(os.path.join(os.curdir,"models","model_50_0.02_0.npz"))  
-预测
+model.load(os.path.join(os.curdir,"models","model_50_0.02_0.npz"))   
+预测  
 model.predict(test_data)对测试集预测  
+百度网盘  
+链接：https://pan.baidu.com/s/1fQCt5tM9aVFu81vfw7IXWQ?pwd=ww9w   
+提取码：ww9w  
 
 ![image](https://user-images.githubusercontent.com/79825105/230629038-92fc604d-b63f-425d-93b3-d57104f8117e.png)
 ![image](https://user-images.githubusercontent.com/79825105/230629053-a3659bd0-ba8a-4ee9-acbb-12f6a02df803.png)
